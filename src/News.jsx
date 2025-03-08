@@ -30,18 +30,18 @@ document.title = capitalizeFirstLetter(props.category); // Use the method here
   }
   useEffect(() => {
     updateNews();
-  }, [])
+  },[])
  
   // next , previous
-  const handelNextClick = async () => {
-    setpage(page+1);
-    updateNews();
-  }
+  // const handelNextClick = async () => {
+  //   setpage(page+1);
+  //   updateNews();
+  // }
 
-  const handelPreClick = async () => {
-    setpage(page-1);
-    updateNews();
-  };
+  // const handelPreClick = async () => {
+  //   setpage(page-1);
+  //   updateNews();
+  // };
   // enable darkmode
 
   const fetchMoreData = async () => {
